@@ -1,0 +1,99 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "fibretrack_ak: fibre tracking, orientation and twisted-yarn theory tests for X-ray CT"
+abstract: >-
+  Tracks individual fibres and measures fibre orientation, twist and migration in
+  X-ray computed tomography of yarns and fibre composites (glass, carbon, hybrid),
+  then tests the result against classical twisted-yarn theory (ideal helix,
+  migration, blend segregation). Also packaged as a Claude skill.
+type: software
+authors:
+  - family-names: Kohli
+    given-names: Anirudh
+    email: kohli20196@gmail.com
+version: "1.0.0"
+date-released: "2026-10-15"
+license: MIT
+repository-code: "https://github.com/kohlianirudh03/fibretrack_ak"
+keywords:
+  - X-ray computed tomography
+  - fibre tracking
+  - fibre orientation
+  - twisted yarn
+  - fibre migration
+  - composite materials
+references:
+  - type: article
+    authors:
+      - family-names: Emerson
+        given-names: Monica Jane
+      - family-names: Jespersen
+        given-names: Kristine Munk
+      - family-names: Dahl
+        given-names: Anders Bjorholm
+      - family-names: Conradsen
+        given-names: Knut
+      - family-names: Mikkelsen
+        given-names: Lars Pilgaard
+    title: "Individual fibre segmentation from 3D X-ray computed tomography for characterising the fibre orientation in unidirectional composite materials"
+    journal: "Composites Part A: Applied Science and Manufacturing"
+    year: 2017
+    volume: 97
+    start: 83
+    end: 92
+    doi: "10.1016/j.compositesa.2016.12.028"
+  - type: article
+    authors:
+      - family-names: Salling
+        given-names: Filip Bjorn
+      - family-names: Jeppesen
+        given-names: Niels
+      - family-names: Sonne
+        given-names: Mads Rostgaard
+      - family-names: Hattel
+        given-names: Jesper Henri
+      - family-names: Mikkelsen
+        given-names: Lars Pilgaard
+    title: "Individual fibre inclination segmentation from X-ray computed tomography using principal component analysis"
+    journal: "Journal of Composite Materials"
+    year: 2022
+    volume: 56
+    start: 83
+    end: 98
+    doi: "10.1177/00219983211052741"
+  - type: article
+    authors:
+      - family-names: Advani
+        given-names: Suresh G.
+      - family-names: Tucker III
+        given-names: Charles L.
+    title: "The use of tensors to describe and predict fiber orientation in short fiber composites"
+    journal: "Journal of Rheology"
+    year: 1987
+    volume: 31
+    issue: 8
+    start: 751
+    end: 784
+    doi: "10.1122/1.549945"
+  - type: book
+    authors:
+      - family-names: Hearle
+        given-names: John W. S.
+      - family-names: Grosberg
+        given-names: Percy
+      - family-names: Backer
+        given-names: Stanley
+    title: "Structural Mechanics of Fibers, Yarns, and Fabrics"
+    publisher:
+      name: Wiley-Interscience
+    year: 1969
+  - type: article
+    authors:
+      - family-names: Lindeberg
+        given-names: Tony
+    title: "Feature detection with automatic scale selection"
+    journal: "International Journal of Computer Vision"
+    year: 1998
+    volume: 30
+    start: 79
+    end: 116
